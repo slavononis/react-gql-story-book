@@ -5,8 +5,11 @@ import { useState } from 'react';
 import { Spinner } from '../Spinner';
 
 type TodoItemProps = {
+  /** Todo item data */
   todo: Todo;
+  /** Toggle completed status */
   onToggle: (id: string) => Promise<void>;
+  /** Remove todo item */
   onDelete: (id: string) => Promise<void>;
 };
 
@@ -14,7 +17,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({
   onDelete,
   onToggle,
   todo,
-}) => {
+}: TodoItemProps) => {
   const [loading, setLoading] = useState(false);
   const handleToggle = async () => {
     setLoading(true);

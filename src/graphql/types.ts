@@ -2,7 +2,6 @@ export interface Todo {
   id: string;
   title: string;
   completed: boolean;
-  __typename: 'Todo';
 }
 
 export interface TodosData {
@@ -11,7 +10,6 @@ export interface TodosData {
     meta: {
       totalCount: number;
     };
-    __typename: 'TodosPage';
   };
 }
 export interface PaginationOptions {
