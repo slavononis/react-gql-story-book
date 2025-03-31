@@ -1,0 +1,19 @@
+.addTodoForm {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.addTodoFormInput {
+  padding: 8px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.addTodoFormButton {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

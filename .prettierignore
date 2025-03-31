@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+build
+dist
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+public/
+static/
+*.d.ts
+logs/*

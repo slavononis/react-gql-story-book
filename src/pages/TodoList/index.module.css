@@ -1,0 +1,9 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.todoList {
+  list-style-type: none;
+  padding: 0;
+}
